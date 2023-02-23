@@ -176,8 +176,26 @@
 
 .footer p {
   margin: 0;
+  margin-bottom: 0.5rem;
   line-height: 1.5;
   color: #ffffff;
   font-size: 0.8rem;
   text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.footer__flags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer__flags__flag {
+  width: 2rem;
 }

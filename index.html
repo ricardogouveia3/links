@@ -13,7 +13,7 @@
   <main class="main">
     <header class="header">
       <a href="/" rel="noopener" class="header__link">
-        <img src="assets/img/logo.svg" alt="RCRD logo in white" class="header__link__logo">
+        <img loading="lazy" src="assets/img/logo.svg" alt="RCRD logo in white" class="header__link__logo">
       </a>
     </header>
     <main class="main-inner">
@@ -33,7 +33,7 @@
               jogar no PC e de memes.</p>
           </div>
           <div class="about__photo">
-            <img src="assets/img/avatar.jpg" alt="Eu com chapéu de urso panda olhando para a direita"
+            <img loading="lazy" src="assets/img/avatar.jpg" alt="Eu com chapéu de urso panda olhando para a direita"
               class="about__photo__img">
           </div>
         </div>
@@ -68,6 +68,13 @@
             </a>
           </li>
           <li class="social-links__list__item">
+            <a href="https://instagram.com/ricardogouveia3" target="_blank" rel="noopener"
+              class="social-links__list__item__link">
+              <span>😀</span>
+              <p>Veja selfies no meu&nbsp;<b>Instagram</b></p>
+            </a>
+          </li>
+          <li class="social-links__list__item">
             <a href="https://github.com/ricardogouveia3" target="_blank" rel="noopener"
               class="social-links__list__item__link">
               <span>💻</span>
@@ -78,6 +85,13 @@
             <a href="https://dev.to/rcrd" target="_blank" rel="noopener" class="social-links__list__item__link">
               <span>📝</span>
               <p>Leia meus textos técnicos no&nbsp;<b>Dev.to</b></p>
+            </a>
+          </li>
+          <li class="social-links__list__item">
+            <a href="https://dribbble.com/ricardogouveia3" target="_blank" rel="noopener"
+              class="social-links__list__item__link">
+              <span>🎨</span>
+              <p>Meus designs estão no&nbsp;<b>Dribbble</b></p>
             </a>
           </li>
           <li class="social-links__list__item">
@@ -102,6 +116,13 @@
             </a>
           </li>
           <li class="social-links__list__item">
+            <a href="https://instagram.com/rcrd_landscape" target="_blank" rel="noopener"
+              class="social-links__list__item__link">
+              <span>🖼️</span>
+              <p>Veja mais fotos de paisagem no&nbsp;<b>Instagram</b></p>
+            </a>
+          </li>
+          <li class="social-links__list__item">
             <a href="https://open.spotify.com/user/ricardogouveia3" target="_blank" rel="noopener"
               class="social-links__list__item__link">
               <span>🔊</span>
@@ -115,12 +136,12 @@
               <p>Me pague um café no&nbsp;<b>BuyMeACoffee</b></p>
             </a>
           </li>
-          <li class="social-links__list__item">
+          <!-- <li class="social-links__list__item">
             <a href="" target="_blank" rel="noopener" class="social-links__list__item__link">
               <span>💸</span>
               <p>Faça um&nbsp;<b>pix</b>&nbsp;para mim</p>
             </a>
-          </li>
+          </li> -->
           <li class="social-links__list__item">
             <a href="mailto:me@rcrd.dev" target="_blank" rel="noopener" class="social-links__list__item__link">
               <span>✉️</span>
@@ -133,14 +154,24 @@
     </main>
     <footer class="footer">
       <p class="footer__rights">
-        <span>2023-2023</span>
+        <span id="footerDate">2023-2023</span>
         <span>Ricardo Gouveia</span>
-        <span>(CC BY-SA 4.0)</span>
+        <span>(<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR" rel="noopener" target="_blank">CC
+            BY-SA 4.0</a>)</span>
+      </p>
+      <p class="footer__inspired">
+        <span>Inspirado no <a href="https://joseli.to/pt/" target="_blank" rel="noopener">site do Joselito</a></span>
       </p>
       <p class="footer__made-with">
-        <span>Feito com HTML - Código fonte</span>
+        <span>Feito com HTML - <a href="https://github.com/ricardogouveia3/links" target="_blank" rel="noopener">Código
+            fonte</a></span>
       </p>
-      <section>flags</section>
+      <section class="footer__flags">
+        <img loading="lazy" src="assets/img/flags/pe.svg" alt="Bandeira de Pernambuco" class="footer__flags__flag">
+        <img loading="lazy" src="assets/img/flags/pa.svg" alt="Bandeira do Pará" class="footer__flags__flag">
+        <img loading="lazy" src="assets/img/flags/sp.svg" alt="Bandeira de São Paulo" class="footer__flags__flag">
+        <img loading="lazy" src="assets/img/flags/br.svg" alt="Bandeira do Brasil" class="footer__flags__flag">
+      </section>
     </footer>
   </main>
 </body>
