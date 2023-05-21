@@ -18,6 +18,22 @@
   background-color: #14fcda;
 }
 
+.backgroundColorDarker--orange {
+  background-color: #903d19;
+}
+.backgroundColorDark--orange {
+  background-color: #c05121;
+}
+.backgroundColorMiddle--orange {
+  background-color: #f06529;
+}
+.backgroundColorLight--orange {
+  background-color: #f38454;
+}
+.backgroundColorLighter--orange {
+  background-color: #f6a37f;
+}
+
 .sectionHorizontalPadding {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -128,11 +144,13 @@
   border: 4px solid #ffffff;
 }
 
-.social-links {
+.social-links,
+.htmlsp {
   padding: 3rem;
 }
 
-.social-links__list {
+.social-links__list,
+.htmlsp__list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -140,17 +158,18 @@
   padding: 0;
 }
 
-.social-links__list__item {
+.social-links__list__item,
+.htmlsp__list__item {
   list-style-type: none;
   display: flex;
 }
 
-.social-links__list__item__link {
+.social-links__list__item__link,
+.htmlsp__button {
   list-style-type: none;
   padding: 0.8rem 1.2rem;
   border-radius: 0.5rem;
   width: 100%;
-  background-color: #053d35;
   text-decoration: none;
   color: #ffffff;
   transition: background-color 0.15s ease-in-out;
@@ -158,21 +177,60 @@
   line-height: 1.5;
   align-items: center;
 }
+
+.social-links__list__item__link {
+  background-color: #053d35;
+}
 .social-links__list__item__link:hover {
   background-color: #0a7d6c;
 }
 
-.social-links__list__item__link span {
+.social-links__list__item__link span,
+.htmlsp__button span {
   margin-right: 1rem;
   font-size: 1.2rem;
 }
-.social-links__list__item__link p {
+.social-links__list__item__link p,
+.htmlsp__button p {
   margin: 0;
 }
 
 .amazon-affiliate__link__img {
   object-fit: cover;
   width: 100%;
+}
+
+.htmlsp {
+  display: flex;
+  flex-direction: column;
+}
+
+.htmlsp__photo-n-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.htmlsp__logo {
+  width: 40%;
+  max-width: 120px;
+  margin: 0.5rem auto;
+}
+
+.htmlsp__photo {
+  max-width: 100%;
+}
+
+.htmlsp__button {
+  background-color: #903d19;
+}
+
+.htmlsp__button:hover {
+  background-color: #c05121;
 }
 
 .footer {
