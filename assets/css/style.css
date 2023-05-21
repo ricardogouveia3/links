@@ -170,6 +170,11 @@
   margin: 0;
 }
 
+.amazon-affiliate__link__img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .footer {
   padding: 3rem 0;
 }
